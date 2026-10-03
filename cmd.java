@@ -1,0 +1,17 @@
+Public class NumberCheck{
+	Public static void main(string[]args){
+		int totaleven=0;
+		int totalodd=0;
+		for(int i=1;i<=10;i++){
+			if(i%2==0){
+				System.out.println(i+"is even");
+				totaleven++;
+			}else{
+				System.out.println(i+"is odd");
+				totalodd++;
+			}
+		}
+		System.out.println("total even numbers from 1 to 10:" +totaleven);
+		System.out.println("total even numbers from 1 to 10:" +totalodd);
+	}
+	}
